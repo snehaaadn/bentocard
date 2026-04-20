@@ -1,18 +1,33 @@
-# React + Vite
+# Customer Insights Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect, responsive "Bento Box" style dashboard built with modern web technologies. This project demonstrates complex, macro-and-micro CSS grid layouts, precise absolute positioning, and clean component-driven architecture.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View Live Demo](#)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Bento Box Architecture:** Utilizes advanced CSS Grid (`auto-rows-fr`) to create a fluid, staggered layout that naturally adapts to content height.
+- **Micro-Interactions & Positioning:** Features complex overlapping UI elements, "floating" notification pills, and custom SVG integration using precise relative/absolute positioning.
+- **Fully Responsive:** Seamlessly stacks into a single column on mobile devices and expands into a multi-column grid on desktop screens without breaking the layout.
+- **High-Contrast Professional UI:** A clean, data-dense aesthetic utilizing crisp whites, subtle grays, and vibrant orange accent colors.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠️ Tech Stack
 
-Note: This will impact Vite dev & build performances.
+- **Framework:** [React 18](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/) - For lightning-fast Hot Module Replacement (HMR).
+- **Styling:** [Tailwind CSS v3](https://tailwindcss.com/) - Utility-first CSS for rapid UI development.
+- **Icons:** Custom inline SVGs for maximum performance and styling control.
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── CompanyActivation.jsx     # Top-left large card with overlapping stat box
+│   ├── AutomaticEnrichment.jsx   # Top-right AI enrichment data grid
+│   ├── CelebrateMilestone.jsx    # Bottom-left Slack notification mockup
+│   └── CRMIntegration.jsx        # Bottom-right CRM list with floating pill badges
+├── App.jsx                       # Main application entry point
+├── Homepage.jsx                  # The "Brain" component managing the CSS Grid
+└── index.css                     # Global Tailwind imports
