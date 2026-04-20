@@ -2,8 +2,6 @@
 
 A pixel-perfect, responsive "Bento Box" style dashboard built with modern web technologies. This project demonstrates complex, macro-and-micro CSS grid layouts, precise absolute positioning, and clean component-driven architecture.
 
-## 🚀 Live Demo
-[View Live Demo](#)
 
 ## ✨ Features
 
